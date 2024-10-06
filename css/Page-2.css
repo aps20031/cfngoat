@@ -236,3 +236,9 @@
     padding-right: 10px;
   }
 }
+.e-section-1 {
+  min-height: 400px;
+}
+.e-section-2 .u-sheet-1 {
+  min-height: 177px;
+}
