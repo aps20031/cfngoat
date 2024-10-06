@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Price Label</title>
+    <style>
+        .price-label {
+            font-family: Arial, sans-serif;
+            display: inline-block;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            background-color: #f9f9f9;
+            text-align: center;
+        }
+        .original-price {
+            font-size: 18px;
+            color: #888;
+            text-decoration: line-through;
+        }
+        .discounted-price {
+            font-size: 24px;
+            color: #e74c3c;
+            font-weight: bold;
+        }
+        .price-label span {
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <div class="price-label">
+        <span class="original-price">7999</span>
+        <span class="discounted-price">299</span>
+    </div>
+</body>
+</html>

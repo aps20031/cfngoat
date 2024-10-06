@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Price Label</title>
+    <style>
+        body {
+            background-color: #333; /* Dark background color for the page */
+            color: #fff; /* Light text color for better readability */
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .price-label {
+            background-color: #444; /* Darker background for the label */
+            border: 1px solid #555; /* Subtle border color */
+            border-radius: 10px; /* Rounded corners */
+            padding: 20px;
+            text-align: center;
+            width: 200px; /* Fixed width */
+        }
+        .original-price {
+            font-size: 20px; /* Slightly larger font for the original price */
+            color: #bbb; /* Light gray color for the strikethrough */
+            text-decoration: line-through;
+        }
+        .discounted-price {
+            font-size: 30px; /* Larger font for the discounted price */
+            color: #f39c12; /* Bright yellow-orange for emphasis */
+            font-weight: bold;
+        }
+        .price-label span {
+            display: block;
+        }
+        .currency {
+            font-size: 18px; /* Currency symbol size */
+            margin-right: 5px; /* Space between the symbol and the number */
+        }
+    </style>
+</head>
+<body>
+    <div class="price-label">
+        <span class="original-price"><span class="currency">₹</span>7999</span>
+        <span class="discounted-price"><span class="currency">₹</span>299</span>
+    </div>
+</body>
+</html>
